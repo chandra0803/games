@@ -98,7 +98,7 @@ public final class Chess extends Application {
         control.setPrefHeight(40);
         control.setSpacing(10.0);
         control.setAlignment(Pos.BASELINE_CENTER);
-        Button start = new Button("Начать");
+        Button start = new Button("START");
         start.setOnMouseClicked(
                 event -> refresh(border)
         );
